@@ -1,0 +1,17 @@
+  {
+    "attributes": {
+      "title": "automation-search-breakdown",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  }

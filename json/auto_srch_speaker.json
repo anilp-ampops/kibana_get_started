@@ -1,0 +1,17 @@
+  {
+    "attributes": {
+      "title": "automation-search-speaker",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"shakes*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+  }

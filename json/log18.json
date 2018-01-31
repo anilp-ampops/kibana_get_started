@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "log": {
+      "properties": {
+        "geo": {
+          "properties": {
+            "coordinates": {
+              "type": "geo_point"
+            }
+          }
+        }
+      }
+    }
+  }
+}

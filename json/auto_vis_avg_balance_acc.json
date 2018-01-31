@@ -1,0 +1,12 @@
+  {
+    "attributes": {
+      "title": "auto_avg_balance_acc",
+      "visState": "{\"title\":\"avg_balance_acc\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false,\"sort\":{\"columnIndex\":null,\"direction\":null},\"showTotal\":false,\"totalFunc\":\"sum\",\"type\":\"table\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"balance\",\"customLabel\":\"avg_bal\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"gender.keyword\",\"size\":5,\"order\":\"asc\",\"orderBy\":\"_term\",\"customLabel\":\"Gender\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}",
+      "description": "",
+      "savedSearchId" : "automation-search-avg_balance_acc",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON" : "{\"filter\":[]}"
+      }
+    }
+  }

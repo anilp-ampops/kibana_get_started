@@ -1,0 +1,17 @@
+{
+    "attributes": {
+      "title": "automation-search-avg_balance_acc",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "_source"
+      ],
+      "sort": [
+        "_score",
+        "desc"
+      ],
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"ba*\",\"query\":{\"match_all\":{}},\"filter\":[]}"
+      }
+    }
+}
